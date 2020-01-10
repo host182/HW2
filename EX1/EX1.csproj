@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31302A36-3A3E-42DB-9AF2-3F61C6E6011C}</ProjectGuid>
+    <ProjectGuid>{E971167D-76E5-41F4-B329-ACC8A11B8BAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>EX1</RootNamespace>
     <AssemblyName>EX1</AssemblyName>
@@ -45,9 +45,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
